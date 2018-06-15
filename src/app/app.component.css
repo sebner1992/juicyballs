@@ -1,0 +1,70 @@
+.jumbotron {
+    margin: 50px 50px 10px 50px;
+    background: rgba(200, 200, 200, 0.7);
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+    color: black;
+}
+
+a {
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#fb {
+    width: 200px;
+}
+
+.achievements {
+    text-align: left;
+}
+
+b{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+#logo {
+    height: 300px;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+#title {
+    padding-top: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+p {
+    font-size: 35px;
+}
+
+#fat {
+    font-size: 40px;
+    color: #E50D5B;
+}
+
+@media (max-width: 800px) {
+    #logo {
+        width: 100%;
+        height: 100%;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    a {
+        width: 100%;
+        height: 100%;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+carousel {
+    opacity: none;
+}

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  public submitted: boolean = false;
+  private timeout: number = 10000;
+
+  submit() {
+    this.submitted = true;
+  }
 }
